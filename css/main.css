@@ -1,16 +1,32 @@
+html, body { height: 100%; }
+
+html { overflow: hidden; }
+
 body {
   background-image: url(../images/background.jpeg);
   background-size: cover;
   color: white;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway', monospace !important;
 }
 
 .jumbotron {
-  text-align: center;
-  margin-top: 15%;
-  font-size: 24px;
+  font-size: 14px;
+  height: 100%;
 }
 
-#clock {
+.panel-heading {
+  text-align: center;
+}
 
+.panel {
+  margin-top: 25px;
+}
+
+#clock, .links, .data-attribution {
+  text-align: center;
+}
+
+.data-attribution {
+  font-size: 11px;
+  font-style: italic;
 }

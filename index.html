@@ -9,13 +9,33 @@
     <script src="js/app.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="css/main.css" defer>
     <link rel="stylesheet" href="vendor/css/bootstrap-3.3.7-dist/css/bootstrap.css" defer>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" defer> 
   </head>
-  <body>
+  <body class="container">
     <div class="jumbotron col-md-8 col-md-offset-2">
-      <div id="clock"></div>
-      <a href="https://www.iconomi.net/"><img src="images/iconomi-logo.png"></a>
-      <a href="https://www.reddit.com/r/ICONOMI/"><img src="images/reddit-logo.png"></a>
+      <h3 id="clock" class="top"></h3>
+
+      <div class="panel panel-default prices">
+        <div class="panel-heading">Stats</div>
+        <div class="panel-body">
+            <ul class="list-group">
+              <li class="list-group-item usd-price"></li>
+              <li class="list-group-item btc-price"></li>
+              <li class="list-group-item volume"></li>
+              <li class="list-group-item percent-change-24h"></li>
+              <li class="list-group-item percent-change-7d"></li>
+              <li class="list-group-item market-cap"></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="https://www.iconomi.net/"><img src="images/iconomi-logo.png"></a>
+        <a href="https://www.reddit.com/r/ICONOMI/"><img src="images/reddit-logo.png"></a>
+      </div>
+
+      <div class="data-attribution bottom">
+        Powered by <a href="https://coinmarketcap.com/">CoinMarketCap</a>
+      </div>
     </div>
   </body>
 </html>
