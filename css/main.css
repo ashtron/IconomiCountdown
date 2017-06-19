@@ -1,0 +1,16 @@
+body {
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+  color: white;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 24px;
+}
+
+#clock {
+
+}
